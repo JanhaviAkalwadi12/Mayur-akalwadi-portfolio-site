@@ -4,9 +4,7 @@
   "sideEffects": false,
   "type": "module",
   "scripts": {
-  "dev": "vinxi dev",
-  "build": "chmod +x node_modules/.bin/vite && vite build",
-  "start": "vinxi start"
+  "build": "vite build"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
