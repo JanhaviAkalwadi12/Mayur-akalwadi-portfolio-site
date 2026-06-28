@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { createFileRoute } from "@tanstack/react-router";
-import portraitAsset from "@/assets/mayur.png.asset.json";
-import { Navbar } from "@/components/portfolio/Navbar";
-import { ParticleBackground } from "@/components/portfolio/ParticleBackground";
-import { Reveal } from "@/components/portfolio/Reveal";
-import { TiltCard } from "@/components/portfolio/TiltCard";
-import { Counter } from "@/components/portfolio/Counter";
-import { MagneticButton } from "@/components/portfolio/MagneticButton";
-import { Chatbot } from "@/components/portfolio/Chatbot";
+//import portraitAsset from "@/assets/mayur.png.asset.json";
+//import { Navbar } from "@/components/portfolio/Navbar";
+//import { ParticleBackground } from "@/components/portfolio/ParticleBackground";
+//import { Reveal } from "@/components/portfolio/Reveal";
+//import { TiltCard } from "@/components/portfolio/TiltCard";
+//import { Counter } from "@/components/portfolio/Counter";
+//import { MagneticButton } from "@/components/portfolio/MagneticButton";
+//import { Chatbot } from "@/components/portfolio/Chatbot";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -723,8 +723,7 @@ function Footer() {
 function Index() {
   return (
     <main className="relative min-h-screen overflow-hidden">
-      <ParticleBackground />
-      <Navbar />
+      
       <Hero />
       <About />
       <Expertise />
@@ -734,7 +733,7 @@ function Index() {
       <ArchitectureMap />
       <Contact />
       <Footer />
-      <Chatbot />
+      
     </main>
   );
 }
