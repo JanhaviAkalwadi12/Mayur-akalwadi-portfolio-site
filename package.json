@@ -7,7 +7,7 @@
   "dev": "vinxi dev",
   "build": "chmod +x node_modules/.bin/vite && vite build",
   "start": "vinxi start"
-  }
+  },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
     "@radix-ui/react-accordion": "^1.2.12",
